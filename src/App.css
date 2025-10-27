@@ -1,0 +1,87 @@
+
+.app {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #74ebd5 0%, #acb6e5 100%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+}
+
+.converter-box {
+  background: white;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 320px;
+}
+
+.converter-box h2 {
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.input-field {
+  padding: 10px;
+  font-size: 16px;
+  border: 1.5px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: border 0.3s;
+}
+
+.input-field:focus {
+  border-color: #6a82fb;
+}
+
+.select-field {
+  padding: 10px;
+  font-size: 16px;
+  border: 1.5px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: border 0.3s;
+}
+
+.select-field:focus {
+  border-color: #6a82fb;
+}
+
+.convert-btn {
+  padding: 10px;
+  background: #6a82fb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.convert-btn:hover {
+  background: #5a73e8;
+}
+
+.result {
+  margin-top: 25px;
+  background: #f8f9ff;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.result p {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.result small {
+  color: #666;
+}
